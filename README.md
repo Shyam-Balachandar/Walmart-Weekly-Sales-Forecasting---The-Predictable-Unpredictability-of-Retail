@@ -1,13 +1,11 @@
 ![Python](https://img.shields.io/badge/Python-3.9%2B-blue)
 ![Prophet](https://img.shields.io/badge/Prophet-Facebook-lightgrey)
 ![Statsmodels](https://img.shields.io/badge/Statsmodels-SARIMA-orange)
-![PowerBI](https://img.shields.io/badge/PowerBI-Optional-yellow)
-![License](https://img.shields.io/badge/License-MIT-green)
 
-# 🛒 Walmart Weekly Sales Forecasting — *The Predictable Unpredictability of Retail*
+# 🛒 Walmart Weekly Sales Forecasting - *The Predictable Unpredictability of Retail*
 
-> *“The future is uncertain — but Walmart’s Q4 sales aren’t.”*  
-> — A Business Analyst who has seen enough data to stop being surprised.
+> *“The future is uncertain - but Walmart’s Q4 sales aren’t.”*  
+> - A Business Analyst who has seen enough data to stop being surprised.
 
 ---
 
@@ -15,12 +13,12 @@
 
 Once upon a spreadsheet, somewhere in Walmart’s sales department, a team of managers was arguing about why December feels like a festival and July feels like a ghost town.  
 
-I decided to find out — not by guessing, but by **listening to the data**.
+I decided to find out - not by guessing, but by **listening to the data**.
 
-This project transforms **Walmart’s weekly sales data** (from Kaggle) into a **story of seasonality, chaos, and patterns hiding in plain sight** — using **time series forecasting** techniques like **SARIMA** and **Prophet**.
+This project transforms **Walmart’s weekly sales data** (from Kaggle) into a **story of seasonality, chaos, and patterns hiding in plain sight** - using **time series forecasting** techniques like **SARIMA** and **Prophet**.
 
 Because as any analyst knows:  
-> Forecasting isn’t about being right — it’s about being less wrong than everyone else.
+> Forecasting isn’t about being right - it’s about being less wrong than everyone else.
 
 ---
 
@@ -33,7 +31,7 @@ Because as any analyst knows:
 **Key Questions:**
 1. When does sales demand peak or drop?  
 2. How accurately can we forecast future sales?  
-3. Which model — SARIMA or Prophet — makes fewer enemies in management meetings?
+3. Which model - SARIMA or Prophet - makes fewer enemies in management meetings?
 
 ---
 
@@ -60,7 +58,7 @@ Because as any analyst knows:
 
 > The dataset covers over **130 weeks of sales data (2010–2012)** across multiple stores and departments.  
 
-For simplicity (and sanity), I aggregated all stores to analyze total weekly sales — the **macro retail pulse** of Walmart.
+For simplicity (and sanity), I aggregated all stores to analyze total weekly sales - the **macro retail pulse** of Walmart.
 
 ---
 
@@ -103,12 +101,12 @@ Two models. Two personalities. One purpose.
 ## 📊 Results Visualization
 
 ### 🔹 SARIMA Forecast
-Accurately tracks sales over time with tight confidence intervals — showing stability and precision.  
+Accurately tracks sales over time with tight confidence intervals - showing stability and precision.  
 Peaks align perfectly with Q4, validating strong **seasonal dependency**.
 
 ### 🔹 Prophet Forecast
 Smooth, interpretable curves showing yearly and weekly seasonality.  
-The “Friday peak” and “December spike” are classic retail behavior — predictable chaos.
+The “Friday peak” and “December spike” are classic retail behavior - predictable chaos.
 
 ---
 
@@ -155,9 +153,6 @@ If implemented, this forecasting approach can:
 
 ---
 
-
----
-
 ## 🤯 Analyst’s Reflection
 
 Forecasting Walmart sales is a bit like predicting British weather -  
@@ -179,7 +174,4 @@ What this project taught me:
 💻 3+ years in Software Development | Aspiring Business & Insight Analyst  
 
 > “I don’t just build models — I build stories that make data human.”
-
-
-## 🧩 Folder Structure
 
